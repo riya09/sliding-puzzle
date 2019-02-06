@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #ebebeb;
+}
+
+body {
+    background: #17161f;
+}
+
+h2 {
+    text-align: center;
+    font-size: 5rem;
+    margin: 0.75rem;
+}
+
+#gameBoard {
+    width: 100vh;
+    margin: 0 auto;
+    height: 100vh;
+    display: block;
+    font-size: 0;
+}
+
+.blocks {
+    cursor: pointer;
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    border: 1px solid white;
+    background: #1b2936;
+    font-size: 8rem;
+    text-align: center;
+}
